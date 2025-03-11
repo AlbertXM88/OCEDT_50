@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ea72553-41dc-4d18-934b-2505d61fd003">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ea72553-41dc-4d18-934b-2505d61fd003">
   <producedTypes>
     <objectType typeId="0c393dd2-4596-4943-8f06-dbb9a15b780d" valueTypeId="b2edc0ed-57fd-4d25-aef9-808e8c2ea0cf"/>
     <refType typeId="3ddbd443-811c-47b1-a852-3751c67f4782" valueTypeId="a79c21b1-ef73-4078-882e-33501a17bae7"/>
@@ -38,4 +38,19 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2ef71468-ff49-4f81-a1fe-5c746512844d">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
